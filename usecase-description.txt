@@ -47,6 +47,3 @@
 - **Ngoại lệ:**
   - Số dư không đủ → báo lỗi.  
   - Máy ATM hết tiền → báo lỗi. 
-git add <usecase-description.txt>
-git commit -m "LAB02"
-git push
