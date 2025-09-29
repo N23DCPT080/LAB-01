@@ -1,14 +1,10 @@
 ## 1. Giới thiệu
 Dự án được phát triển trong môn **Nhập môn Công nghệ Phần mềm**.  
-Mục tiêu: áp dụng quy trình phát triển phần mềm theo mô hình **Agile – Scrum**, từ phân tích yêu cầu → thiết kế UML → lập trình → kiểm thử → báo cáo.  
+Mục tiêu: áp dụng quy trình phát triển phần mềm theo mô hình **Agile – Scrum**, từ phân tích yêu cầu → thiết kế UML → lập trình → kiểm thử → báo cáo.
+- Sinh viên: Nguyễn Cao Quỳnh Hương
+- Repo GitHub:https://github.com/n23dcpt080/Lab-01-N23DCPT080.git
 
-## 2. Thành viên nhóm
-- Họ tên 1 – Vai trò (Leader)  
-- Họ tên 2 – Vai trò (Developer)  
-- Họ tên 3 – Vai trò (Tester)  
-- Họ tên 4 – Vai trò (Documentation)  
-
-## 3. Nội dung tích hợp
+## 2. Nội dung tích hợp
 ### 🔹 Lab 01 – GitHub & Quản lý dự án
 - Tạo repository riêng cho môn học.  
 - Cấu hình Git (clone, commit, push, pull).  
@@ -32,10 +28,3 @@ Mục tiêu: áp dụng quy trình phát triển phần mềm theo mô hình **A
 - `SQ cho quy trinh rut tien.png`  
 - `index.html`, `style.css`, `script.js`  
 - File báo cáo này: `project-report.md`  
-
-## 5. Quản lý phiên bản
-- Repo GitHub:
-
-## 6. Kết luận
-- Hoàn thiện quy trình từ phân tích yêu cầu đến giao diện cơ bản.  
-- Đây là nền tảng để tiếp tục các lab sau (thiết kế class, coding module Withdraw, testing, Jira, báo cáo cuối kỳ).  
