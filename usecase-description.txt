@@ -1,0 +1,49 @@
+# Lab 02 – Phân tích yêu cầu & Thiết kế Use Case
+
+## 1. Phân tích yêu cầu hệ thống
+**Mini Project:** ATM System  
+
+**Chức năng chính:**
+- Đăng nhập (Login)
+- Rút tiền (Withdraw Cash)
+- Xem số dư (Check Balance)
+- Nạp tiền (Deposit Cash)
+- Chuyển khoản (Transfer Funds)
+- Bảo trì ATM (Maintain ATM)
+
+**Actor:**
+- **Customer:** Người dùng ATM.
+- **Bank System:** Hệ thống ngân hàng xử lý giao dịch.
+- **Technician:** Nhân viên kỹ thuật bảo trì máy.
+## 2. Use Case Description
+
+### Use Case 1: Login
+- **Tên:** Đăng nhập  
+- **Mục tiêu:** Xác thực người dùng trước khi sử dụng ATM.  
+- **Actor:** Customer, Bank System  
+- **Tiền điều kiện:** Máy ATM hoạt động, thẻ đã được đưa vào.  
+- **Luồng chính:**
+  1. Khách hàng đưa thẻ vào.  
+  2. Hệ thống yêu cầu nhập PIN.  
+  3. Khách hàng nhập PIN.  
+  4. ATM gửi thông tin đến Bank System để xác thực.  
+  5. Bank System trả kết quả → nếu đúng, vào menu chính.  
+- **Ngoại lệ:**
+  - PIN sai → báo lỗi, cho nhập lại (tối đa 3 lần).  
+  - PIN sai quá 3 lần → ATM giữ thẻ.  
+
+### Use Case 2: Withdraw Cash
+- **Tên:** Rút tiền  
+- **Mục tiêu:** Cho phép khách hàng rút tiền từ tài khoản.  
+- **Actor:** Customer, Bank System  
+- **Tiền điều kiện:** Đã đăng nhập thành công.  
+- **Luồng chính:**
+  1. Khách hàng chọn “Rút tiền”.  
+  2. Nhập số tiền cần rút.  
+  3. ATM gửi yêu cầu đến Bank System.  
+  4. Bank System kiểm tra số dư.  
+  5. Nếu đủ tiền → trừ số dư, gửi xác nhận.  
+  6. ATM nhả tiền và in biên lai.  
+- **Ngoại lệ:**
+  - Số dư không đủ → báo lỗi.  
+  - Máy ATM hết tiền → báo lỗi. 
