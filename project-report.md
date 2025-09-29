@@ -2,7 +2,7 @@
 Dự án được phát triển trong môn **Nhập môn Công nghệ Phần mềm**.  
 Mục tiêu: áp dụng quy trình phát triển phần mềm theo mô hình **Agile – Scrum**, từ phân tích yêu cầu → thiết kế UML → lập trình → kiểm thử → báo cáo.
 - Sinh viên: Nguyễn Cao Quỳnh Hương
-- Repo GitHub:https://github.com/n23dcpt080/Lab-01-N23DCPT080.git
+- Repo GitHub: https://github.com/N23DCPT080/LAB-01
 
 ## 2. Nội dung tích hợp
 ### 🔹 Lab 01 – GitHub & Quản lý dự án
