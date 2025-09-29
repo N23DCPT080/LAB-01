@@ -23,7 +23,7 @@ Mục tiêu: áp dụng quy trình phát triển phần mềm theo mô hình **A
 - Giao diện HTML + CSS + JS với form login (Username, Password, Remember me).  
 - Artifact: `index.html`, `style.css`, `script.js`.  
 
-## 4. Artifact trong Lab 05
+## 3. Artifact trong Lab 05
 - `usecase.png`  
 - `SQ cho quy trinh rut tien.png`  
 - `index.html`, `style.css`, `script.js`  
